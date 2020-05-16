@@ -13,3 +13,7 @@ Extras.inc文件的内容是vcd波形的产生，这里要注意的vcs查看的�
 $dumpportsall;
 $dumpfile("VCS_SimRun.VCD");
 $dumpvars;
+//verdi的波形产生
+$fsdbDumpfile("waveform.fsdb");
+$fsdbDumpvars(0);
+$fsdbDumpon;
